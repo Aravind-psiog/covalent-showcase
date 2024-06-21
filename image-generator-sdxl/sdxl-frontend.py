@@ -34,7 +34,7 @@ def make_image(_prompt, address):
     address = address.strip()
     api_key = st.session_state.get("api_key") or DEFAULT_API_KEY
     headers = {"x-api-key": api_key} if api_key else {}
-    json_ = {"prompt": _prompt, "num_inference_steps": 2}
+    json_ = {"text": _prompt, "num_inference_steps": 2}
     try:
         response = requests.post(
             address + "/text-to-image",
