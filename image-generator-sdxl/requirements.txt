@@ -1,1 +1,6 @@
 streamlit-keyup==0.2.4
+covalent-cloud>=0.65.1
+streamlit==1.35.0
+torch==2.2.2
+transformers==4.39.3
+diffusers==0.27.2

@@ -60,7 +60,7 @@ with st.sidebar:
     st.title("Settings")
     st.text_input("API Address", DEFAULT_API_ADDRESS, key="api_address")
     st.text_input("API Key", DEFAULT_API_KEY, key="api_key", type="password")
-    logo = Image.open("./assets/logo.png")
+    logo = "https://www.covalent.xyz/wp-content/uploads/2022/04/covalent-white-logo.svg"
     st.caption("AI powered by")
     st.image(logo, output_format="PNG")
 
